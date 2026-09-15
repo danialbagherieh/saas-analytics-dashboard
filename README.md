@@ -1,73 +1,67 @@
-# React + TypeScript + Vite
+# 📊 SaaS Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Live Demo:** [saas-analytics-dashboard-tau.vercel.app](https://saas-analytics-dashboard-tau.vercel.app)
 
-Currently, two official plugins are available:
+A modern, responsive SaaS business analytics dashboard built with **React 19**, **TypeScript**, and **Material-UI v7**. Features interactive charts, data grids, and geographic data visualizations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+| Category | Technology |
+| :--- | :--- |
+| **Frontend** | React 19, TypeScript |
+| **UI Library** | Material-UI v7, MUI Lab |
+| **Charts & Data Viz** | MUI X-Charts, Nivo, D3-Geo |
+| **Data Tables** | MUI X-Data-Grid |
+| **Routing** | React Router v6 |
+| **Build Tool** | Vite |
+| **Deployment** | Vercel |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Key Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- 📊 Interactive business metrics and KPI cards
+- 📈 Data visualization with MUI X-Charts and Nivo
+- 🗺️ Geographic data mapping with D3-Geo
+- 📋 Advanced data tables with sorting and filtering
+- 📱 Fully responsive dashboard layout
+- 🧩 Modular, reusable component architecture
+- ⚡ Fast performance with Vite
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📸 Screenshots
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Dashboard Overview
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+![Dashboard](add-your-screenshot-url-here)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Analytics View
+
+![Analytics](add-your-screenshot-url-here)
+
+---
+
+## 🚀 Installation
+
+Follow these steps to run the project locally.
+
+npm install # or yarn install
+npm run dev # or yarn dev
+http://localhost:5173
+npm run build
+npm run preview
+
+### Prerequisites
+
+- **Node.js** (v18 or higher)
+- **npm** or **yarn**
+
+### Steps
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/danialbagherieh/saas-analytics-dashboard.git
+   cd saas-analytics-dashboard
