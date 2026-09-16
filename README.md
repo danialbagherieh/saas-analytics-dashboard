@@ -34,25 +34,28 @@ A modern, responsive SaaS business analytics dashboard built with **React 19**, 
 
 ## 📸 Screenshots
 
-### Dashboard Overview
+### Dashboard
+![Dashboard.one](https://github.com/user-attachments/assets/c3b1df99-e934-4f97-82c2-99719accd6f1)
+![Dashboard.two](https://github.com/user-attachments/assets/d7142412-9cba-4a57-8aac-fb8e66dfb05c)
 
-![Dashboard](add-your-screenshot-url-here)
+### Custom Explorer
+![Custom Explorer](https://github.com/user-attachments/assets/18c64d5b-142e-4402-a3f0-53b19389f439)
 
-### Analytics View
+### Dataintegrations
+![Dataintegrations](https://github.com/user-attachments/assets/9d158df6-1b49-47e7-bce8-b9e90cb5f129)
 
-![Analytics](add-your-screenshot-url-here)
+### Reportinsight
+![Reportinsight](https://github.com/user-attachments/assets/ab6d76c3-bc93-439e-87f0-34182941e8d9)
+
+### Settingaccess 
+![Settingaccess](https://github.com/user-attachments/assets/c75b854f-38eb-473b-b7d3-b86e9a782b78)
+
+### Responsiveness 
+![Responsiveness](https://github.com/user-attachments/assets/aa091466-a70c-4f63-9b7d-17f308b3ae8f)
 
 ---
 
 ## 🚀 Installation
-
-Follow these steps to run the project locally.
-
-npm install # or yarn install
-npm run dev # or yarn dev
-http://localhost:5173
-npm run build
-npm run preview
 
 ### Prerequisites
 
@@ -61,7 +64,27 @@ npm run preview
 
 ### Steps
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/danialbagherieh/saas-analytics-dashboard.git
-   cd saas-analytics-dashboard
+Open your terminal and run the following commands:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/danialbagherieh/saas-analytics-dashboard.git
+cd saas-analytics-dashboard
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
+---
+
+## 👨‍💻 Author
+
+**Danial Bagherieh** – [@danialbagherieh](https://github.com/danialbagherieh)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+   
