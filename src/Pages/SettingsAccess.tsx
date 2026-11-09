@@ -214,13 +214,6 @@ export default function SettingsAccess() {
           mb: 3,
         }}
       >
-        <Typography
-          variant="h4"
-          fontWeight={700}
-          sx={{ fontSize: { xs: "1.5rem", sm: "1.75rem", md: "2rem" } }}
-        >
-          Settings & Access Control
-        </Typography>
         {selectedRole && (
           <Chip
             label={`Selected Role: ${selectedRole}`}

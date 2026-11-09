@@ -2,7 +2,6 @@
 import {
   Box,
   Grid,
-  Typography,
   Dialog,
   DialogTitle,
   DialogContent,
@@ -120,17 +119,6 @@ export default function ElegantSaaSDashboard() {
         minHeight: "100vh",
       }}
     >
-      <Typography
-        variant="h4"
-        fontWeight={700}
-        sx={{
-          mb: { xs: 2, sm: 3 },
-          fontSize: { xs: "1.5rem", sm: "1.75rem", md: "2.125rem" },
-        }}
-      >
-        SaaS Dashboard
-      </Typography>
-
       {/* Row 1: 4 Cards */}
       <Grid container spacing={{ xs: 1.5, sm: 2, md: 3 }}>
         {cards.map(({ Component, props }, i) => (
